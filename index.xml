@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hausos</title><link>https://example.org/</link><description>Recent content on Hausos</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 03 Mar 2025 12:29:32 +0900</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>試験ポスト</title><link>https://example.org/post/2025/03/03/test_post/</link><pubDate>Mon, 03 Mar 2025 12:29:32 +0900</pubDate><guid>https://example.org/post/2025/03/03/test_post/</guid><description>
+&lt;p>&lt;strong>Insert Lead paragraph here.&lt;/strong>&lt;/p>
+&lt;h2 id="テスト">テスト&lt;/h2>
+&lt;span class="share-hatena">
+&lt;svg>
+&lt;use xlink:href="#share-hatena">&lt;/use>
+&lt;/svg>
+&lt;/span>
+&lt;span class="share-line">
+&lt;svg>
+&lt;use xlink:href="#share-line">&lt;/use>
+&lt;/svg>
+&lt;/span>
+&lt;span class="share-x-twitter">
+&lt;svg>
+&lt;use xlink:href="#share-x-twitter">&lt;/use>
+&lt;/svg>
+&lt;/span>
+&lt;ol>
+&lt;li>
+&lt;p>Set up your table and code blocks.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Make sure that your table looks like this:&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Hello&lt;/th>
+&lt;th>World&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>How&lt;/td>
+&lt;td>&lt;span style="font-family: SertoMardin; font-size: 1.6em; font-weight: normal;">ܕܬܬܚܙܘܢ&lt;/span>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ol>
+&lt;li>Do another step.&lt;/li>
+&lt;/ol>
+&lt;div class="notices note">
+&lt;div class="label">Note&lt;/div>
+&lt;p>This is a standard &amp;quot;note&amp;quot; style.&lt;span style="font-family: SertoMardin; font-size: 1.5em; font-weight: normal;">ܕܬܬܚܙܘܢ&lt;/span>&lt;/p>
+&lt;/div>
+&lt;h3 id="セルトー体">セルトー体&lt;/h3>
+&lt;div dir="rtl">
+&lt;span style="font-family: SertoMardin; font-size: 1.5em; font-weight: normal;">
+ܘܠܐ ܬܥܒܕܘܢ ܙܕܝܩܘܬܟܘܢ ܠܥܝܢ ܒ̈ܢܝ ܐܢܫܐ ܐܝܟ ܕܬܬܚܙܘܢ ܠܗܘܢ ܕܠܐ ܐܓܪܐ ܠܝܬ ܠܟܘܢ ܠܘܬ ܐܒܘܟܘܢ ܕܒܫܡܝܐ
+&lt;/span>
+&lt;/div>
+&lt;h3 id="和文フォント標準">和文フォント（標準）&lt;/h3>
+&lt;p>朕は、日本国民の総意に基いて、新日本建設の礎が、定まるに至つたことを、深くよろこび、枢密顧問の諮詢及び帝国憲法第七十三条による帝国議会の議決を経た帝国憲法の改正を裁可し、ここにこれを公布せしめる。&lt;/p></description></item></channel></rss>
