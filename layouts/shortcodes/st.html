@@ -1,0 +1,1 @@
+{{ $weight := default "normal" (.Get `wt`) }}<span style="font-family: {{ .Get "fam" }}; font-size: {{ .Get "sz" }}; font-weight: {{$weight}};">{{ .Inner }}</span>

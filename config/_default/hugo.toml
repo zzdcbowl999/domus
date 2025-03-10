@@ -1,0 +1,13 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Hausos'
+theme = 'hugo-clarity'
+
+[permalinks]
+    post = "/:sections/:year/:month/:day/:filename/"
+
+[security]
+    enableInlineShortcodes = false
+
+[params]
+    enforceLightMode = true
