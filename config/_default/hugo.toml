@@ -1,5 +1,5 @@
 baseURL = 'https://zzdcbowl999.github.io/domus/'
-canonifyurls = true
+canonifyURLs = true
 languageCode = 'en-us'
 title = 'Hausos'
 theme = 'hugo-clarity'
