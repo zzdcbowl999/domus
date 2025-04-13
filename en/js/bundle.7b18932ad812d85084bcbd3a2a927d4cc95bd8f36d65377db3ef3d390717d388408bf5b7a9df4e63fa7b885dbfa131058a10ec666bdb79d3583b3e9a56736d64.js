@@ -9,8 +9,8 @@ const pageHasLoaded = 'DOMContentLoaded';
 const imageAltClass = 'img_alt';
 
 
-const defaultSiteLanguage = 'en-us';
-const baseURL = 'https://zzdcbowl999.github.io/domus/';
+const defaultSiteLanguage = 'en';
+const baseURL = 'http://localhost:1313/';
 const searchFieldClass = '.search_field';
 const searchClass = '.search';
 const goBackClass = 'button_back';
@@ -915,9 +915,18 @@ function fileClosure(){
     let images = post ? post.querySelectorAll('img') : false;
     images ? populateAlt(images) : false;
 
-    images.forEach((image) => image.addEventListener('load', (e) => {
-      mark_image_as_scalable(post, image);
-    }));
+    // images.forEach((image) => image.addEventListener('load', (e) => {
+    //   mark_image_as_scalable(post, image);
+    // }));
+
+    if (images && typeof images.forEach === 'function') {
+      images.forEach((image) => {
+        image.addEventListener('load', (e) => {
+          mark_image_as_scalable(post, image);
+        });
+      });
+    }    
+
   })();
 
   doc.addEventListener('click', function(event) {
@@ -992,6 +1001,7 @@ function fileClosure(){
     doc.addEventListener('click', function(event){
       const target = event.target;
       const open = 'jsopen';
+      console.log('jsopen event registered.')
       const navCloseIconClass = '.nav_close';
       const navClose = elem(navCloseIconClass);
       const isNavToggle = target.matches(navCloseIconClass) || target.closest(navCloseIconClass);
@@ -1089,6 +1099,9 @@ function fileClosure(){
 }
 
 window.addEventListener(pageHasLoaded, fileClosure());
+console.log(pageHasLoaded)
+console.log(pageHasLoaded)
+// window.addEventListener('DOMContentLoaded', fileClosure());
 
 ;
 // add custom js in this file
