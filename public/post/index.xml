@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hausos</title>
+    <link>https://blog.hausos.xyz/post/</link>
+    <description>Recent content in Posts on Hausos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 31 Mar 2025 14:19:35 +0900</lastBuildDate><atom:link href="https://blog.hausos.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ロール設定から考えてもらう</title>
+      <link>https://blog.hausos.xyz/post/2025/03/31/ai_illust/</link>
+      <pubDate>Mon, 31 Mar 2025 14:19:35 +0900</pubDate>
+      
+      <guid>https://blog.hausos.xyz/post/2025/03/31/ai_illust/</guid>
+      <description>
+        
+          
+            質問 AI関連の記事などのアイキャッチ画像で、AI自身は物理的実体のないものですが、比喩的に回路のような構造や脳のイメージ、光のイメージなどを
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>試験的ポスト</title>
+      <link>https://blog.hausos.xyz/post/2025/03/31/trial_for_slug/</link>
+      <pubDate>Mon, 31 Mar 2025 13:07:11 +0900</pubDate>
+      
+      <guid>https://blog.hausos.xyz/post/2025/03/31/trial_for_slug/</guid>
+      <description>
+        
+          
+            Insert Lead paragraph here.
+見出し1 見出しつう 見出し3 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>試験ポスト</title>
+      <link>https://blog.hausos.xyz/post/2025/03/03/test_post/</link>
+      <pubDate>Mon, 03 Mar 2025 12:29:32 +0900</pubDate>
+      
+      <guid>https://blog.hausos.xyz/post/2025/03/03/test_post/</guid>
+      <description>
+        
+          
+            Insert Lead paragraph here. テスト Set up your table and code blocks. Make sure that your table looks like this: Hello World How ܕܬܬܚܙܘܢ Do another step. Note This is a standard &amp;quot;note&amp;quot; style.ܕܬܬܚܙܘܢ セルトー体 ܘܠܐ ܬܥܒܕܘܢ ܙܕ
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

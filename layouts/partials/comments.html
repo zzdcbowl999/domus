@@ -1,0 +1,9 @@
+<div class="post_comments">
+  <hr>
+  <h4><b>Comments</b></h4>
+  {{- $p := .Params }}
+  {{ if $p.slug }}
+  <script src="https://isso.hausos.xyz/js/embed.min.js" data-isso="https://isso.hausos.xyz/" data-isso-vote="false"></script>
+  <section id="isso-thread" data-isso-id="{{ .Permalink }}"></section>
+  {{ end }}
+</div>

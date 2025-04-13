@@ -1,15 +1,15 @@
-baseURL = 'https://zzdcbowl999.github.io/domus/'
-relativeURLS = true
-canonifyurls = true
+baseURL = "https://blog.hausos.xyz/"
 languageCode = 'en-us'
 title = 'Hausos'
 theme = 'hugo-clarity'
 
 [permalinks]
-    post = "/:sections/:year/:month/:day/:filename/"
+    post = "/:sections/:year/:month/:day/:slug/"
 
 [security]
     enableInlineShortcodes = false
 
 [params]
     enforceLightMode = true
+    hasCJKLanguage = true
+    showshare = false

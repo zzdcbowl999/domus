@@ -1,8 +1,10 @@
 ---
 title: "試験ポスト" # Title of the blog post.
 date: 2025-03-03T12:29:32+09:00 # Date of post creation.
+isCJKLanguage: true
 description: "Article description." # Description used for search engine.
 featured: true # Sets if post is a featured post, making it appear on the sidebar. A featured post won't be listed on the sidebar if it's the current page
+slug: test_post
 draft: false # Sets whether to render this page. Draft of true will not be rendered.
 toc: false # Controls if a table of contents should be generated for first-level links automatically.
 # menu: main
@@ -88,7 +90,7 @@ kṣayamāyāti sañcyāt ||
 
 ## Greek
 
-{{% st fam="OldStandard-Bold" sz=1.1em %}}
+{{% st fam="Gentium Plus" sz=1.1em %}}
 Ἀνεβαίνομεν τὸ βουνὸν, πεζοὶ, μὲ τὸ γαϊδουράκι φορτωμένον, ὁ παπ’
 Ἀνδρέας, ὁ καλός μας εὐχέτης, κι’ ὁ μακαρίτης ὁ Λαμιαῖος, κι’ ἐγὼ, κι’
 ὁ Ἀλέκος τὸ Φωτάκι, ὁ μικρὸς καὶ πρόθυμος φίλος μας. Εἰς ὅλα ἦτον

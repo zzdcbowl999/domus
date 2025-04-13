@@ -1,0 +1,20 @@
+{{- $p := .Params }}
+{{ if $p.slug }}
+    <hr>
+    <div>
+        <b>＼シェアする／</b>
+        <a target="_blank" href="https://b.hatena.ne.jp/add?mode=confirm&url={{ .Permalink }}" title="はてなブックマークに追加" class="share-hatena">
+            <svg width="40" height="40"><use xlink:href="#share-hatena"></use></svg>
+        </a>
+        <a target="_blank" href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" title="Xで共有" class="share-x-twitter">
+            <svg  width="40" height="40"><use xlink:href="#share-x-twitter"></use></svg> 
+        </a>
+        <a target="_blank" href="https://social-plugins.line.me/lineit/share?url={{ .Permalink }}" title="LINEで送る" class="share-line">
+            <svg  width="40" height="40"><use xlink:href="#share-line"></use></svg> 
+        </a>
+        <a href="{{ .Permalink }}" title="URLコピー" class="share-copyurl link link_yank">
+            <svg  width="36" height="36"><use xlink:href="#share-copyurl"></use></svg> 
+        </a>
+    </div>
+{{ end }}
+
